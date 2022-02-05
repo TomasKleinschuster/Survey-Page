@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- CONTAINER -->
+    <div>
+        <!-- HEADER -->
+        <header>
+            <!-- TITLE -->
+            <h1>Survey Form</h1>
+            <!-- SUBTITLE -->
+            <p>Please complete the following form in order to subscribe to our site.</p>
+        </header>
+
+        <!-- FORM -->
+        <form action="" target="_blank" method="post">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name..." required>
+            </div>
+            <div  class="form-group">
+                <label for="last-name" id="last-name-label">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Enter your last name..." required>
+            </div>
+            <div  class="form-group">
+                <label for="company-name" id="company-name-label">Company Name</label>
+                <input type="text" name="company-name" id="company-name" class="form-control" placeholder="Enter your company name..." required>
+            </div>
+            <div  class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email..." required>
+            </div>
+            <div  class="form-group">
+                <p>Which of the following options does your business belong to?</p>
+                <select name="role" id="dropdown" class="form-control" required>
+                    <option value="" selected="" disabled="">Select one of the following</option>
+                    <option value="gym">Gym</option>
+                    <option value="sport-club">Sport Club</option>
+                    <option value="recreational-center">Recreational Center</option>
+                    <option value="p-c-classes">Private & Group Classes</option>
+                </select>
+            </div>
+            <div  class="form-group">
+                <p>
+                    Included services:
+                    <span>
+                        (Check all that apply)
+                    </span>
+                </p>
+                <label>
+                    <input type="checkbox" name="prefer" value="gym" class="input-checkbox" >
+                    Gym
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="swimming-pool" class="input-checkbox" >
+                    Swimming Pool
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="pilates" class="input-checkbox" >
+                    Pilates
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="yoga" class="input-checkbox" >
+                    Yoga
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="crossfit" class="input-checkbox" >
+                    Crossfit
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="soccerfield" class="input-checkbox" >
+                    Soccer field
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="soccerfield" class="input-checkbox" >
+                    Basketball field
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="jiujitsu" class="input-checkbox" >
+                    Jiu-Jitsu
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="boxing" class="input-checkbox" >
+                    Boxing
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="aikido" class="input-checkbox" >
+                    Aikido
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="kungfu" class="input-checkbox" >
+                    Kung-Fu
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="judo" class="input-checkbox" >
+                    Judo
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="taekwondo" class="input-checkbox" >
+                    Taekwondo
+                </label>
+                <label>
+                    <input type="checkbox" name="prefer" value="spa" class="input-checkbox" >
+                    Spa
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Other services</p>
+                <textarea name="other-services" id="other-services" placeholder="Enter other services that tou offer..." class="input-textarea"></textarea>
+            </div>
+            <div class="form-group">
+                <button id="submit" class="submit-button" type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
