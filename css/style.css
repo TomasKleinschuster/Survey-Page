@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
-/* FONT + BACKGROUND*/
+/* BODY + FONT + BACKGROUND*/
 body {
+    width: 100%;
     font-family: 'Poppins', sans-serif;
-    background-color: bisque;
-    background-image: url(../assets/people-sports.jpg);
+    background: linear-gradient(rgba(84, 109, 155, 0.993), rgba(212, 144, 167, 0.993)), url(../assets/people-sports.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
@@ -20,4 +20,16 @@ body {
 .container {
     max-width: 690px;
     width: 100%;
+    margin: 30px auto 30px auto;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(194, 194, 194, 0.5);
+    border-radius: 15px 50px;
+}
+
+/* LABELS */
+
+label {
+    display: block;
+    margin: 0.5rem 0;
 }
