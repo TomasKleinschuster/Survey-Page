@@ -1,0 +1,23 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT + BACKGROUND*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: bisque;
+    background-image: url(../assets/people-sports.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 690px;
+    width: 100%;
+}
